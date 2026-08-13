@@ -59,7 +59,17 @@ Ollama est le moteur qui fait tourner des **modèles d'IA ouverts directement su
 
 ![Page d'accueil d'Ollama avec le bouton Télécharger](main_ollama.png)
 
-Rendez-vous sur le site d'Ollama, puis cliquez sur **« Télécharger »**. Le site détecte votre système (macOS, Windows ou Linux) et vous propose le bon paquet. L'inscription est gratuite et n'est pas nécessaire pour utiliser les modèles locaux.
+Rendez-vous sur **https://ollama.com/download**, puis cliquez sur **« Télécharger »**. Le site détecte votre système (macOS, Windows ou Linux) et vous propose le bon paquet. L'inscription est gratuite et n'est pas nécessaire pour utiliser les modèles locaux.
+
+Vous pouvez également passer directement par les liens de téléchargement :
+
+| Système d'exploitation | Lien direct | Fichier téléchargé | Taille approximative |
+|---|---|---|---|
+| 🍎 **macOS** (Apple Silicon et Intel) | https://ollama.com/download/Ollama.dmg | `Ollama.dmg` | **≈ 183 Mo** (175 Mio) |
+| 🪟 **Windows** (64 bits) | https://ollama.com/download/OllamaSetup.exe | `OllamaSetup.exe` | **≈ 1,56 Go** (1,46 Gio) |
+| 🐧 **Linux** | `curl -fsSL https://ollama.com/install.sh \| sh` | script d'installation | — |
+
+*Tailles relevées le 13/08/2026 sur la version **v0.32.9** ; elles évoluent à chaque nouvelle version. Ces liens pointent toujours vers la dernière version publiée.*
 
 Une fois l'installation terminée, vérifiez que tout fonctionne en ouvrant un terminal (PowerShell sous Windows, Terminal sous macOS) :
 
@@ -205,4 +215,4 @@ Essayez ces demandes dans l'ordre : elles vont du plus simple au plus complet et
 
 ---
 
-*Guide réalisé le 12/08/2026 — captures d'écran issues d'une installation réelle d'OpenWorker avec Ollama.*
+*Guide réalisé le 12/08/2026, mis à jour le 13/08/2026 (ajout des liens de téléchargement d'Ollama) — captures d'écran issues d'une installation réelle d'OpenWorker avec Ollama.*
